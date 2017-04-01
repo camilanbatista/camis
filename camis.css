@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600');
+@import url('https://fonts.googleapis.com/css?family=Lily+Script+One');
+
+body{
+	margin-left:auto;
+	margin-right:auto;
+	max-width:1200px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.box{
+	box-sizing: border-box;
+}
+
+header{
+	width: 100%;
+	text-align: center;
+	padding: 2.26em 0em;
+}
+
+header .title{
+	font-size: 2.75em;
+	font-family: 'Lily Script One', cursive;
+}
+
+header .subtitle{
+	font-weight: bold;
+}
+
+nav ul li{
+	float: left;
+	width: 25%;
+	text-align: center;
+	border-left: 0.0625em solid;
+	border-right: 0.0625em solid;
+	padding: 0.8em 0px;
+	font-family: 'Lily Script One', cursive;
+	font-size: 1.375em;
+}
+
+nav ul{
+	width: 100%;
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+nav{
+	width: 100%;
+}
+
+.grid-column{
+	width: 25%;
+	float: left;
+	padding: 1%;
+}
+
+.grid-column h1.title{
+	padding-bottom: 0.625em;
+}
+
+.grid-column img{
+	border-radius: 205px;
+}
+
+.video{
+	width: 100%;
+}
+
+#grid{
+	width: 100%;
+	clear: both;
+	padding-top: 1.25em;
+}
+
+#table{
+	width: 100%;
+	clear: both;
+	padding: 2.5em 0px;
+	text-align: center;
+}
+
+.table-2{
+	display: none;
+}
+
+table{
+	width: 100%;
+	border: 0px;
+	padding: 0.625em;
+}
+
+footer{
+	width: 100%;
+	text-align: center;
+	padding: 1.875em 0px;
+}
+
+footer a{
+	text-decoration: none;
+}
+
+img{
+	max-width:100%;
+}
+
+header, nav, footer {
+  clear: both;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Lily Script One', cursive;
+	margin: 0px;
+}
+
+h1{
+	font-size: 1.875em;
+}
+
+h2{
+	font-size: 1.75em;
+}
+
+h3{
+	font-size: 1.625em;
+}
+
+h4{
+	font-size: 1.5em;
+}
+
+h5{
+	font-size: 1.375em;
+}
+
+h6{
+	font-size: 1.25em;
+}
+
+
+/* THEME DARK*/
+
+.dark header{
+	background: #455A64;
+}
+
+.dark header .title{
+	color: #FFFFFF;
+}
+
+.dark header .subtitle{
+	color: #CFD8DC;
+}
+
+.dark nav ul li{
+	background: #212121;
+	color: #FFFFFF;
+	border-color: #000;
+}
+
+.dark footer{
+	border-color: #BDBDBD;
+	background: #607D8B;
+	color: #FFFFFF;
+}
+
+.dark footer a{
+	color: #FFFFFF;
+}
+
+body.dark{
+	background: #CFD8DC;
+	color: #212121;
+}
+
+.dark tr.c1{
+	background: #757575;
+	color: #FFFFFF;
+}
+
+.dark article{
+	background: #BDBDBD;
+}
+
+/* THEME LIGHT*/
+
+.light header{
+	background: #00BCD4;
+}
+
+.light header .title{
+	color: #FFFFFF;
+}
+
+.light header .subtitle{
+	color: #B2EBF2;
+}
+
+.light nav ul li{
+	background: #0097A7;
+	color: #FFFFFF;
+	border-color: #BDBDBD;;
+}
+
+.light footer{
+	border-color: #BDBDBD;
+	background: #757575;
+	color: #FFFFFF;
+}
+
+.light footer a{
+	color: #FFFFFF;
+}
+
+body.light{
+	background: #B2EBF2;
+	color: #212121;
+}
+
+.light tr.c1{
+	background: #00BCD4;
+	color: #FFFFFF;
+}
+
+.light article{
+	background: #EFFBFB;
+}
+
+/*MEDIAS*/
+
+@media(max-width: 480px)  {
+    .grid-column{
+		width: 100%;
+	}
+
+	nav ul li{
+		padding: 0.7em 0px;
+		font-size: 1em;
+	}
+
+	h1{
+		font-size: 1.75em;
+	}
+
+	h2{
+		font-size: 1.625em;
+	}
+
+	h3{
+		font-size: 1.5em;
+	}
+
+	h4{
+		font-size: 1.375em;
+	}
+
+	h5{
+		font-size: 1.25em;
+	}
+
+	h6{
+		font-size: 1.125em;
+	}
+
+	.table-1{
+		display: none;
+	}
+
+	.table-2{
+		display: table;
+	}
+}
+
+@media(min-width: 481px) and (max-width: 768px) {
+    .grid-column{
+		width: 50%;
+	}
+}
